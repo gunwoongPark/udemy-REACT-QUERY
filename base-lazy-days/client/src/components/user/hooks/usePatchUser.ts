@@ -29,7 +29,7 @@ async function patchUserOnServer(
 
 // TODO: update type to UseMutateFunction type
 export function usePatchUser(): UseMutateFunction<
-  User,
+  User | null,
   unknown,
   User,
   unknown
